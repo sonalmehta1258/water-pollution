@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+    
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* NAVIGATION BAR */ 
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color:  rgba(59,130,246,.5);
+    justify-content: center;
+    box-shadow: 15px 15px 15px grey;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar ul{
+    display: flex;
+    margin: 34px;
+
+
+}
+
+.navbar ul li{
+    margin: 24px;
+    list-style: none;
+    
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.navbar ul li a:hover{
+    color: black;
+    font-size: 45PX;
+    transition: 0.3s;
+     
+    border-bottom: 2PX solid black ;
+}
+
+/* LOGO */
+
+.logo img{
+    height: 80px;
+    border-radius: 25px;
+    
+
+}
+
+/* Section */
+.container h1{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 255, 0.947);
+}
+.container h1 span{
+    color: red;
+
+}
+.box1 img{
+    height: 500px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+
+}
+.box2 p{
+    height: 190px;
+    width: 1431px;
+    border: 0px solid red;
+    margin: 49px;
+    justify-content: center;
+    display: flex;
+    font-size: 26px;
+    margin-top: -4px;
+    margin-bottom: 29px;
+}
+.container h2{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    color: blue;
+    margin-top: 30px;
+    margin-bottom: 23px;
+
+}
+.box2 img{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 288px;
+  height: 490px;
+  width: 885px;
+
+}
+.box3 p{
+    height: 190px;
+    width: 1431px;
+    border: 0px solid red;
+    margin: 49px;
+    justify-content: center;
+    display: flex;
+    font-size: 26px;
+    margin-top: -4px;
+    margin-bottom: 29px;
+}
+.box3 img{
+    display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 288px;
+  height: 490px;
+  width: 885px;
+}
+.box4 p{
+        height: 190px;
+        width: 1431px;
+        border: 0px solid red;
+        margin: 49px;
+        justify-content: center;
+        display: flex;
+        font-size: 26px;
+        margin-top: -4px;
+        margin-bottom: 29px;
+}
+.box4 img{
+    display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 288px;
+  height: 490px;
+  width: 885px;
+  margin-top: 305px;
+}
+.data h4 span{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: -13px;
+    color: red;
+    background-color: yellow;
+
+}
+.data img {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    margin-left: 230px;
+    margin-top: 81px;
+  }
+  .box5 p{
+    height: 190px;
+    width: 1431px;
+    border: 0px solid red;
+    margin: 49px;
+    justify-content: center;
+    display: flex;
+    font-size: 26px;
+    margin-top: -4px;
+    margin-bottom: 29px;
+  }
+  .box5 img{
+    display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 288px;
+  height: 490px;
+  width: 885px;
+  margin-top: 1019px;
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+
+  #contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../contact1.jpg') no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
+
+}
+
+#contact{
+    background-color: skyblue;
+}
+
+ 
+
